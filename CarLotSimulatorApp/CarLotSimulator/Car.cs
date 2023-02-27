@@ -19,6 +19,7 @@ namespace CarLotSimulator
         public string EngineNoise { get; set; }
         public string HonkNoise { get; set; }
         public bool IsDriveable { get; set; }
+        public bool InStock { get; set; }
 
         public void MakeEngineNoise()
             {
